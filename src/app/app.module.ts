@@ -16,7 +16,6 @@ import { WebcamComponent } from './webcam/webcam.component';
     AppRoutingModule,
     WebcamModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

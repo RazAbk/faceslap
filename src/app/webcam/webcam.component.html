@@ -5,5 +5,7 @@
          autoplay
          muted>
   </video>
-  <div #canvas></div>
+  <div class="canvas" #canvas></div>
+  <canvas class="image-capture-canvas" #imageCaptureCanvas [width]="WIDTH" [height]="HEIGHT"></canvas>
+  <button (click)="addNewPerson('test')">click</button>
 </div>

@@ -1,0 +1,14 @@
+.video-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.image-capture-canvas {
+    position: fixed;
+    opacity: 1;
+    pointer-events: none;
+}
